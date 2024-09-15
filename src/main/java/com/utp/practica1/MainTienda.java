@@ -35,5 +35,7 @@ public class MainTienda {
         papa.setFechaCaducidad(LocalDate.of(2024, 9, 10));
 
         papa.vender();
+
+        inventario.verInventario();
     }
 }

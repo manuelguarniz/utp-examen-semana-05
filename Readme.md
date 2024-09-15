@@ -18,6 +18,9 @@ En el inventario tenemos los siguientes productos:
 { nombre: escoba 🧹, precio: 7.5, cantidad: 2, tipo: limpieza }
  ====== muchos días despues ====== 
 ! No se puede vender un producto vencido
+En el inventario tenemos los siguientes productos:
+{ nombre: papa 🥔, precio: 2.5, cantidad: 7, fechaCaducidad: 2024-09-10 }
+{ nombre: escoba 🧹, precio: 7.5, cantidad: 2, tipo: limpieza }
 ```
 
 2. Hotal
