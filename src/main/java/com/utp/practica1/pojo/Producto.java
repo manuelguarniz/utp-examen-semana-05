@@ -48,9 +48,9 @@ public class Producto {
         if (this.getCantidad() > 0 && this.getCantidad() - cantidad >= 0) {
             int nuevaCantidad = this.getCantidad() - cantidad;
             this.setCantidad(nuevaCantidad);
-            System.out.println("La "+nombre+" se vendio con éxito 🤑");
+            System.out.println("Se vendió " + cantidad + " "+nombre+" con éxito 🤑");
         } else {
-            System.out.println("! El producto <<" + nombre + ">> está sin stock");
+            System.out.println("! El producto <" + nombre + "> tiene " + this.getCantidad() + " en stock, no puede vender " + cantidad);
         }
     }
 }

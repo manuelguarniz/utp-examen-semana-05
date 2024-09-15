@@ -9,10 +9,10 @@ import java.time.LocalDate;
 public class MainTienda {
     public static void main(String[] args) {
 
-        ProductoPerecedero papa = new ProductoPerecedero("papa",2.5,10,
+        ProductoPerecedero papa = new ProductoPerecedero("papa 🥔",2.5,10,
                 LocalDate.of(2025, 9, 25));
 
-        ProductoNoPerecedero escoba = new ProductoNoPerecedero("escoba", 7.5, 5, "limpieza");
+        ProductoNoPerecedero escoba = new ProductoNoPerecedero("escoba 🧹", 7.5, 5, "limpieza");
 
         Inventario inventario = new Inventario();
         inventario.agregarProducto(papa);
